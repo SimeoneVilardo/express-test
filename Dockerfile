@@ -1,4 +1,4 @@
-FROM arm64v8/node:14
+FROM node:14
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
